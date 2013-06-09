@@ -1,0 +1,28 @@
+ # rails
+tmp/*
+tmp/**/*
+/log/*.log
+db/*.sqlite3
+config/database.yml
+config/deploy.rb
+
+# rvm
+.rvmrc
+
+# redis
+dump.rdb
+
+## editors & IDEs
+*.sublime-workspace
+*.sublime-project
+.idea/*
+
+## osx
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
