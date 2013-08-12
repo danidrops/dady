@@ -26,3 +26,6 @@ Icon
 # Files that might appear on external disk
 .Spotlight-V100
 .Trashes
+/tmp/cache/199/BF1/spree_i18n%2Fconfiguration%2Fsupported_locales
+/tmp/cache/154/F01/spree_i18n%2Fconfiguration%2Favailable_locales
+/log/development.log
