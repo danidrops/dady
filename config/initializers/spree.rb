@@ -9,7 +9,7 @@ Spree.config do |config|
   # Example:
   # Uncomment to override the default site name.
   config.site_name = "Distributions Dady"
-  config.logo = "http://s3.amazonaws.com/dady/app/public/spree/eco tires protectant.png"
+  config.logo = "https://s3.amazonaws.com/dady/app/eco+tires+protectant.png"
 end
 
 Spree.user_class = "Spree::User"
