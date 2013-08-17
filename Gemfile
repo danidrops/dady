@@ -38,10 +38,12 @@ gem 'rails-i18n'
 # To use debugger
 # gem 'debugger'
 
-gem 'spree', '2.0.1'
+gem 'spree', '2.0.3'
 gem 'spree_gateway', :git => 'https://github.com/spree/spree_gateway.git', :branch => '2-0-stable'
 gem 'spree_auth_devise', :git => 'https://github.com/spree/spree_auth_devise.git', :branch => '2-0-stable'
 
 gem 'spree_i18n', :git => 'git://github.com/spree/spree_i18n.git', :branch => '3-0-stable'
 
-gem 'spree_heroku', :git => 'git://github.com/joneslee85/spree-heroku.git'
+group :production do
+  gem 'spree_heroku', :git => 'git://github.com/joneslee85/spree-heroku.git'
+end
