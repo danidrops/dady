@@ -1,6 +1,6 @@
  # rails
-tmp/*
-tmp/**/*
+/tmp/*
+/tmp/**/*
 /log/*.log
 db/*.sqlite3
 config/database.yml
@@ -29,3 +29,23 @@ Icon
 /tmp/cache/199/BF1/spree_i18n%2Fconfiguration%2Fsupported_locales
 /tmp/cache/154/F01/spree_i18n%2Fconfiguration%2Favailable_locales
 /log/development.log
+/tmp/cache/E27/320/spree%2Fapp_configuration%2Fsite_name
+/tmp/cache/C23/510/spree%2Fapp_configuration%2Flogo
+/tmp/cache/assets/DF2/200/sprockets%2F8aae2d3b47e5317d72c520c8deacd3ae
+/tmp/cache/assets/DB3/0E0/sprockets%2Fa027bb90b4432f43e0bcb2fc4040deff
+/tmp/cache/assets/D9D/A60/sprockets%2Fe221cf7f7b92d02f24e4a5db613fcd69
+/tmp/cache/assets/D9B/440/sprockets%2F67e9a4b3da07f6e14b56e672adaa384a
+/tmp/cache/assets/D69/A90/sprockets%2F9560404af56ab8ba07c4b9e390ef42cc
+/tmp/cache/assets/D5B/AC0/sprockets%2Fe7bbcd1b25b57328cc337164a15ac6a3
+/tmp/cache/assets/D46/6C0/sprockets%2F9e6ad6159bd63f648ee8a2f036b4a721
+/tmp/cache/assets/D35/CC0/sprockets%2F17acb9ac48621e738d610751e5a54daa
+/tmp/cache/assets/D1A/CB0/sprockets%2F887a5880c2ec4144bc6d9b5833eb734e
+/tmp/cache/assets/D0F/370/sprockets%2F65b590581acb0df661ea37d37c9f5152
+/tmp/cache/assets/CF0/020/sprockets%2F7ac548254a01967934fae84bb7898ed0
+/tmp/cache/assets/CDB/7D0/sprockets%2F4707026bae937760dfc2f6c197b0341d
+/tmp/cache/assets/CC7/B20/sprockets%2F5b65ab2024cb3263a4e10523e67b29e2
+/tmp/cache/assets/C94/F60/sprockets%2F477776e145461b12f9864166e3ccfa79
+/tmp/cache/assets/C8A/B50/sprockets%2F7310b9a8b178973ea91c7886c2a48044
+/tmp/cache/assets/C88/EF0/sprockets%2F6890a9fb8a520434af55944e209255f4
+/tmp/cache/assets/C7D/9B0/sprockets%2Fc8e55da609058592078aa81203e43e51
+/tmp/cache/assets/C21/350/sprockets%2F3878645da1253846a05153247cbe4754
