@@ -6,8 +6,8 @@
 # In order to initialize a setting do:
 # config.setting_name = 'new value'
 Spree.config do |config|
-  config.site_name = "Distributions Dady"
-  config.logo = "https://s3.amazonaws.com/dady/app/eco+tires+protectant.png"
+  config.site_name = "Distributions DaDy Inc. Importer / Distributor / Wholesale"
+  config.logo = "https://s3.amazonaws.com/dady/app/Distributions+DaDy+Inc..jpg"
 end
 
 Spree.user_class = "Spree::User"
