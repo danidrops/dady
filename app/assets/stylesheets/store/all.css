@@ -9,3 +9,21 @@
  *= require_self
  *= require_tree .
 */
+
+nav #main-nav-bar li#link-to-cart a {
+  font-weight: normal;
+  font-size: 16px;
+  color: #000000;
+}
+
+a {
+text-decoration: none;
+color: #000000;
+}
+
+ul#products li .price {
+color: #000000;
+font-size: 16px;
+padding-top: 5px;
+display: block;
+}
