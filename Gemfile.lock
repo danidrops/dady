@@ -16,6 +16,15 @@ GIT
       spree_core (>= 0.70.0)
 
 GIT
+  remote: git://github.com/rterbush/spree_contact_us.git
+  revision: 61b0f4b8a7375647c6ccbcce9e8edc0e7682c72a
+  branch: 2-0-stable
+  specs:
+    spree_contact_us (1.1.1)
+      recaptcha
+      spree_core (~> 2.0.0)
+
+GIT
   remote: git://github.com/spree/spree_i18n.git
   revision: c2d577b3e521b36d6ca873d1261e7373a659effa
   branch: 3-0-stable
@@ -212,6 +221,7 @@ GEM
       polyamorous (~> 0.5.0)
     rdoc (3.12.2)
       json (~> 1.4)
+    recaptcha (0.3.5)
     sass (3.2.10)
     sass-rails (3.2.6)
       railties (~> 3.2.0)
@@ -326,6 +336,7 @@ DEPENDENCIES
   spree (= 2.0.1)
   spree_auth_devise!
   spree_banner!
+  spree_contact_us!
   spree_gateway!
   spree_heroku!
   spree_i18n!

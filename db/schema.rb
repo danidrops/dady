@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131007193409) do
+ActiveRecord::Schema.define(:version => 20131009215361) do
 
   create_table "shipping_methods_zones", :id => false, :force => true do |t|
     t.integer "shipping_method_id"
@@ -172,6 +172,20 @@ ActiveRecord::Schema.define(:version => 20131007193409) do
     t.datetime "updated_at",                             :null => false
   end
 
+  create_table "spree_inquiries", :force => true do |t|
+    t.string   "name"
+    t.string   "email"
+    t.string   "inquiry_type"
+    t.string   "order_no"
+    t.text     "message"
+    t.datetime "created_at",           :null => false
+    t.datetime "updated_at",           :null => false
+    t.string   "phone_number"
+    t.string   "http_user_agent"
+    t.string   "http_remote_addr"
+    t.string   "client_viewport_size"
+  end
+
   create_table "spree_inventory_units", :force => true do |t|
     t.integer  "lock_version",            :default => 0
     t.string   "state"
@@ -309,6 +323,13 @@ ActiveRecord::Schema.define(:version => 20131007193409) do
   end
 
   add_index "spree_payments", ["order_id"], :name => "index_spree_payments_on_order_id"
+
+  create_table "spree_paypal_accounts", :force => true do |t|
+    t.string "email"
+    t.string "payer_id"
+    t.string "payer_country"
+    t.string "payer_status"
+  end
 
   create_table "spree_preferences", :force => true do |t|
     t.text     "value"

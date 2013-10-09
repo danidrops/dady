@@ -46,6 +46,8 @@ gem 'spree_i18n', :git => 'git://github.com/spree/spree_i18n.git', :branch => '3
 
 gem 'spree_banner', :git => 'git://github.com/damianogiacomello/spree_banner.git'
 
+gem 'spree_contact_us', :git => 'git://github.com/rterbush/spree_contact_us.git', :branch => "2-0-stable"
+
 group :production do
   gem 'spree_heroku', :git => 'git://github.com/joneslee85/spree-heroku.git'
 end
