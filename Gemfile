@@ -44,6 +44,8 @@ gem 'spree_auth_devise', :git => 'https://github.com/spree/spree_auth_devise.git
 
 gem 'spree_i18n', :git => 'git://github.com/spree/spree_i18n.git', :branch => '3-0-stable'
 
+gem 'spree_banner', :git => 'git://github.com/damianogiacomello/spree_banner.git'
+
 group :production do
   gem 'spree_heroku', :git => 'git://github.com/joneslee85/spree-heroku.git'
 end

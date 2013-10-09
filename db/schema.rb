@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130609014578) do
+ActiveRecord::Schema.define(:version => 20131007193409) do
 
   create_table "shipping_methods_zones", :id => false, :force => true do |t|
     t.integer "shipping_method_id"
@@ -100,6 +100,22 @@ ActiveRecord::Schema.define(:version => 20130609014578) do
 
   add_index "spree_assets", ["viewable_id"], :name => "index_assets_on_viewable_id"
   add_index "spree_assets", ["viewable_type", "type"], :name => "index_assets_on_viewable_type_and_type"
+
+  create_table "spree_banner_boxes", :force => true do |t|
+    t.string   "presentation"
+    t.string   "url"
+    t.string   "category"
+    t.integer  "position"
+    t.boolean  "enabled",                 :default => false
+    t.string   "attachment_content_type"
+    t.string   "attachment_file_name"
+    t.datetime "attachment_updated_at"
+    t.integer  "attachment_width"
+    t.integer  "attachment_height"
+    t.integer  "attachment_size"
+    t.datetime "created_at",                                 :null => false
+    t.datetime "updated_at",                                 :null => false
+  end
 
   create_table "spree_calculators", :force => true do |t|
     t.string   "type"

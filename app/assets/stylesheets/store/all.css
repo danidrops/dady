@@ -8,6 +8,7 @@
 
  *= require_self
  *= require_tree .
+ *= require store/spree_banner
 */
 
 nav #main-nav-bar li#link-to-cart a {
@@ -17,13 +18,25 @@ nav #main-nav-bar li#link-to-cart a {
 }
 
 a {
-text-decoration: none;
-color: #000000;
+  text-decoration: none;
+  color: #000000;
 }
 
 ul#products li .price {
-color: #000000;
-font-size: 16px;
-padding-top: 5px;
-display: block;
+  color: #000000;
+  font-size: 16px;
+  padding-top: 5px;
+  display: block;
+}
+
+.toppromobanner {
+  display:none;
+}
+
+.toppromobanner ul {
+  list-style: none;
+  margin: 0 auto 0px auto;
+  text-align: center;
+  height: 220px;
+  width: 800px;
 }

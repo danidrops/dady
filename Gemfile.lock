@@ -1,4 +1,13 @@
 GIT
+  remote: git://github.com/damianogiacomello/spree_banner.git
+  revision: c31e4218b028cf532be8ac2a26b556c7062d8e56
+  specs:
+    spree_banner (2.0.3)
+      aws-sdk
+      paperclip
+      spree_core (>= 2.0.0)
+
+GIT
   remote: git://github.com/joneslee85/spree-heroku.git
   revision: 3a3aa2165202f55acf689dcccc4d44648262c6a7
   specs:
@@ -316,6 +325,7 @@ DEPENDENCIES
   sass-rails (~> 3.2.3)
   spree (= 2.0.1)
   spree_auth_devise!
+  spree_banner!
   spree_gateway!
   spree_heroku!
   spree_i18n!
