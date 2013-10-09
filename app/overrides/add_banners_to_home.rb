@@ -8,10 +8,13 @@ Deface::Override.new(:virtual_path => 'spree/layouts/spree_application',
       $(document).ready(function() {
         if($("#is_homepage").length>0) {
           $(".toppromobanner").show();
-          $("div#wrapper.row ul").cycle({
+          $("div.toppromobanner ul").cycle({
             fx: "fade" // choose your transition type, ex: fade, scrollUp, shuffle, etc...
           });
         }
+        $("div.bottomadsbanner ul").cycle({
+            fx: "fade" // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+          });
       });
     </script>
   ')
@@ -21,6 +24,6 @@ Deface::Override.new(:virtual_path => 'spree/layouts/spree_application',
   :insert_top => 'div#wrapper.row',
   :text => '
     <div class="toppromobanner">
-      <%= insert_banner_box(:category => "bowling", :class => "promobannerslide", :list => true, :style => "promo") %>
+      <%= insert_banner_box(:category => "promo", :class => "promobannerslide", :list => true, :style => "promo") %>
     </div>
   ')

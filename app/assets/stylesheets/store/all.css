@@ -17,10 +17,19 @@ nav #main-nav-bar li#link-to-cart a {
   color: #000000;
 }
 
+/*nav #main-nav-bar li#link-to-cart {
+  background: url("better_cart.png");
+} need cart of a good size*/
+
 a {
   text-decoration: none;
   color: #000000;
 }
+
+/*input[type="submit"] {
+  background-color: #387;
+  border: #387;
+} pick color */
 
 ul#products li .price {
   color: #000000;
@@ -39,4 +48,24 @@ ul#products li .price {
   text-align: center;
   height: 220px;
   width: 800px;
+}
+
+.bottomadsbanner ul {
+  list-style: none;
+  margin: 0 auto 0px auto;
+  text-align: center;
+  height: 120px;
+  width: 600px;
+}
+
+header {
+  background-image: url("p4.png");
+}
+
+footer {
+  background-image: url("p4.png");
+}
+
+body {
+  background-image: url("p4.png");
 }
