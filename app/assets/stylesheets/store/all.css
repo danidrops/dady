@@ -17,19 +17,15 @@ nav #main-nav-bar li#link-to-cart a {
   color: #000000;
 }
 
-/*nav #main-nav-bar li#link-to-cart {
+nav #main-nav-bar li#link-to-cart {
   background: url("better_cart.png");
-} need cart of a good size*/
+  background-repeat: no-repeat;
+}
 
 a {
   text-decoration: none;
   color: #000000;
 }
-
-/*input[type="submit"] {
-  background-color: #387;
-  border: #387;
-} pick color */
 
 ul#products li .price {
   color: #000000;
