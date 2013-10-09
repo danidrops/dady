@@ -7,7 +7,8 @@
 # config.setting_name = 'new value'
 Spree.config do |config|
   config.site_name = "Distributions DaDy Inc. Importer / Distributor / Wholesale"
-  config.logo = "https://s3.amazonaws.com/dady/app/Distributions+DaDy+Inc..jpg"
+#  config.logo = "https://s3.amazonaws.com/dady/app/Distributions+DaDy+Inc..jpg"
+  config.logo = "transparent_logo2.png"
   config.admin_interface_logo = "https://s3.amazonaws.com/dady/app/Distributions+DaDy+Inc..jpg"
   config.site_url = 'http://www.distributionsdady.ca/'
 
