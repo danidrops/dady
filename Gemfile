@@ -8,6 +8,8 @@ gem 'rails', '3.2.13'
 gem 'pg'
 gem 'unicorn'
 
+# gem 'spree_awesome_homepage', :path => '../spree_awesome_homepage'
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -37,6 +39,12 @@ gem 'rails-i18n'
 
 # To use debugger
 # gem 'debugger'
+
+group :development do
+  gem 'awesome_print'
+  gem 'better_errors'
+  gem 'binding_of_caller'
+end
 
 gem 'spree', '2.0.1'
 gem 'spree_gateway', :git => 'https://github.com/spree/spree_gateway.git', :branch => '2-0-stable'
