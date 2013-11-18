@@ -11,7 +11,7 @@ end
 
 module Dady
   class Application < Rails::Application
-    
+
     config.to_prepare do
       # Load application's model / class decorators
       Dir.glob(File.join(File.dirname(__FILE__), "../app/**/*_decorator*.rb")) do |c|
@@ -71,5 +71,8 @@ module Dady
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
+
+    # for heroku asset precompile issue http://blog.nathanhumbert.com/2012/01/rails-32-on-heroku-tip.html
+    config.assets.initialize_on_precompile = false
   end
 end
