@@ -34,6 +34,13 @@ ul#products li .price {
   display: block;
 }
 
+ul#products li .product-image {
+  border: none;
+  padding: 5px;
+  min-height: 110px;
+  background-color: transparent;
+}
+
 .toppromobanner {
   display:none;
 }
